@@ -27,7 +27,7 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: dist  # Path to the build output directory (default for Angular is `dist`)
+  base-directory: dist/my-app  # Path to the build output directory (default for Angular is `dist`)
 
 cache:
   paths:
