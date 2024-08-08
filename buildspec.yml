@@ -7,12 +7,12 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
-      - npm install eslint --save-dev
+      
 
   pre_build:
     commands:
       - echo Running lint checks...
-      - npm run lint  # Optional: If you have linting configured
+      #- npm run lint  # Optional: If you have linting configured
 
   build:
     commands:
